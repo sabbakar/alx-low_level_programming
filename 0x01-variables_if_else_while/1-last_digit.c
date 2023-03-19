@@ -23,7 +23,7 @@ if (abs(n) % 10 > 5)
 printf("greater than 5\n");
 else if (abs(n) % 10 == 0)
 printf("0\n");
-else
+else if (abs(n) % 10 < 0)
 printf("less than 6 and not 0\n");
 
 return (0);
