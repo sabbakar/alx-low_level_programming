@@ -1,6 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+/**
+ * main - Entry point of the program
+ *
+ * Description: This function generates a random number and prints whether
+ * it is positive or negative.
+ *
+ * Return: Always 0 (Success)
+ */
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
