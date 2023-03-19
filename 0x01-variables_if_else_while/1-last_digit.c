@@ -17,14 +17,14 @@ int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 
-printf("The last digit of %d is %d ", n, n % 10);
+printf("Last digit of %d is %d and is ", n, abs(n) % 10);
 
-if (n > 0)
-printf("and is positive\n");
-else if (n < 0)
-printf("and is negative\n");
+if (abs(n) % 10 > 5)
+printf("greater than 5\n");
+else if (abs(n) % 10 == 0)
+printf("0\n");
 else
-printf("and is zero\n");
+printf("less than 6 and not 0\n");
 
 return (0);
 }
