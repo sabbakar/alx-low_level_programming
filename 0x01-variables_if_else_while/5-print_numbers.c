@@ -5,7 +5,9 @@
 /**
 * main - Entry point of the program
 *
-* Description: This function generates the list of numbers from zero to nine and prints it out
+* Description: This function generates the list of numbers
+*
+* from zero to nine and prints it out.
 *
 * Return: Always 0 (Success)
 */
