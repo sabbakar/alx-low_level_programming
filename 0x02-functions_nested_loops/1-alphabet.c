@@ -1,10 +1,13 @@
+#include <stdio.h>
 #include "main.h"
 /**
-*main - Entry point
-*Description: program that prints the alphabets
-*followed by a new line
-*Return: Exit int function with an int 0
-*/
+ * print_alphabet - Prints the lowercase alphabet followed by a newline
+ *
+ * Description: This function prints the 26 lowercase letters of the alphabet,
+ *              followed by a newline character.
+ *
+ * Return: void
+ */
 
 void print_alphabet(void)
 {
