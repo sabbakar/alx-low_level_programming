@@ -5,7 +5,7 @@
  *
  * Return: pointer to byte at start of substring, or
  * NULL if substring not found
- * */
+ */
 char *_strstr(char *haystack, char *needle)
 {
 	char *hayptr, *ndlptr;
@@ -20,7 +20,7 @@ char *_strstr(char *haystack, char *needle)
 		{
 
 			if (*hayptr != *ndlptr)
-					break;
+				break;
 	hayptr++;
 	ndlptr++;
 	if (*ndlptr == 0)
