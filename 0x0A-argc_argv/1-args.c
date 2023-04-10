@@ -5,12 +5,8 @@
  * @argv: array that contains the program comman line
  * Return: 0 - success.
  */
-int main(int argc, char *argv[])
-{
-	int i;
-
-	for (i = 0; i < argc; i++)
-		printf("%s\n", argv[i]);
+int main(int argc, char *argv[] __attribute__((unused)))
+	printf("%d\n", argv - 1);
 				return (0);
 				}
 
